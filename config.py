@@ -2,8 +2,7 @@ HOST = "irc.twitch.tv"
 PORT = 6667
 NICK = "SimpleTwitchBot"
 PASS = ""
-CHAN = "winderton"
+CHAN = ""
 RATE = (20/30)
-
-
+TOKEN=""
 oplist = {}
