@@ -43,7 +43,7 @@ def ban(sock, user):
     mess(sock, ".ban {}".format(user))
 
 def randomhero(sock,user):
-    random_hero=random.choice(config.heroes)
+    random_hero=random.choice(data.heroes)
     if user:
         result = user.group()
     mess(sock, "@{}".format(result) + " сегодня играет, например, на {}".format(random_hero))
